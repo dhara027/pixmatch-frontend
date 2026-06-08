@@ -2,11 +2,11 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "https://REPLACE_WITH_YOUR_RENDER_URL/api/:path*"
+      "destination": "https://pixmatch-backend.onrender.com/api/:path*"
     },
     {
       "source": "/health",
-      "destination": "https://REPLACE_WITH_YOUR_RENDER_URL/health"
+      "destination": "https://pixmatch-backend.onrender.com/health"
     },
     {
       "source": "/(.*)",
